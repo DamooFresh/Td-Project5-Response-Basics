@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: #0a96b3;
+    color: white;
+    
+}
+
+/*.navdiv{
+    display: flex;
+    justify-content: space-between;   
+}  
+
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+} */
+
+@media screen and (max-width: 430px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .navdiv{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li{
+        display: inline;
+        margin-right: 50px;
+        margin-left: -40px;
+        color: white;
+    }
+    li>a{
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .logo>a{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .pic-header{
+        display: flex;
+        padding: 80px 40px 60px 40px;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+
+    h1{
+        color: #0a96b3;
+        font-size: 40px;
+    }
+
+    .widd{
+        width: 40%;
+    }
+
+    .mid-head{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .space{
+        /* width: 40%; */
+        margin: 10px 0px;
+        
+    }
+
+    .conc{
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        height: 40px;
+       width: 25%;
+       background-color: #0a96b3;
+       color: white;
+       margin-right: 0px;
+       margin-top: 45px;
+       border: none;
+    }
+
+    .h1{
+        width: 60%;
+        margin-left: 0px;
+
+    }
+
+    .middle-section{
+        background-color: aquamarine;
+        padding: 60px 80px 80px 80px;
+    }
+
+    .the-flex{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .item{
+        margin-top: 30px;
+        width: 40%;
+        text-wrap: wrap;
+    }
+
+    .another-sec{
+        background-color: #0a96b3;
+        padding: 60px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .btnn{
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        height: 40px;
+       width: 40%;
+       /* background-color: #0a96b3; */
+       /* color: white;
+       margin-right: 0px; */
+       margin-top: 45px;
+       border: none;
+    }
+
+    .clll{
+        background-color: white;
+        color: #0a96b3;
+        margin-right: 20px;
+    }
+
+    .cll{
+        background-color: #0a4e5c;
+        color: white;
+        padding-top: -40px;
+    }
+
+    .cll>i{
+        margin: 0px;
+    }
+
+    /* .cott{
+        color: white;
+    } */
+
+    .all-sec{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button>i{
+        text-align: left;
+        
+        /* margin: 10px; */
+    }
+    .all-sec>h2{
+        color: white;
+    }
+
+    .iii{
+       margin: 20px 10px 0 20px;
+    }
+
+    footer{
+        background-color: #056d81;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .prom{
+        margin: 0%;
+    }
+
+    .icon{
+        display: flex;
+        
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .navdiv{
+        display: flex;
+        justify-content: right;
+    } 
+
+    li{
+        display: inline;
+        margin-right: -40px;
+        margin-left: 0px;
+        color: white;
+    }
+    li>a{
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .logo>a{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .pic-header{
+        display: flex;
+        padding: 80px 40px 60px 40px;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+
+    h1{
+        color: #0a96b3;
+        font-size: 40px;
+    }
+
+    .widd{
+        width: 40%;
+    }
+
+    .mid-head{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .space{
+        width: 40%; */
+        margin: 10px 0px;
+        
+    }
+
+    .conc{
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        height: 40px;
+       width: 25%;
+       background-color: #0a96b3;
+       color: white;
+       margin-right: 0px;
+       margin-top: 45px;
+       border: none;
+    }
+
+    .h1{
+        width: 60%;
+        margin-left: 0px;
+
+    }
+
+    .middle-section{
+        background-color: aquamarine;
+        padding: 60px 80px 80px 80px;
+    }
+
+    .the-flex{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .item{
+        margin-top: 30px;
+        width: 40%;
+        text-wrap: wrap;
+    }
+
+    .another-sec{
+        background-color: #0a96b3;
+        padding: 60px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .btnn{
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        height: 40px;
+       width: 40%;
+       /* background-color: #0a96b3; */
+       /* color: white;
+       margin-right: 0px; */
+       margin-top: 45px;
+       border: none;
+    }
+
+    .clll{
+        background-color: white;
+        color: #0a96b3;
+        margin-right: 20px;
+    }
+
+    .cll{
+        background-color: #0a4e5c;
+        color: white;
+        padding-top: -40px;
+    }
+
+    .cll>i{
+        margin: 0px;
+    }
+
+    /* .cott{
+        color: white;
+    } */
+
+    .all-sec{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button>i{
+        text-align: left;
+        
+        /* margin: 10px; */
+    }
+    .all-sec>h2{
+        color: white;
+    }
+
+    .iii{
+       margin: 20px 10px 0 20px;
+    }
+
+    footer{
+        background-color: #056d81;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .prom{
+        margin: 0%;
+    }
+
+    .icon{
+        display: flex;
+        
+    }
+
+}
